@@ -1,0 +1,118 @@
+/*---------------------------------------------------------------------------------*/
+/*                          BASIC SETUP                                            */
+/*---------------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: rgb(228, 228, 228);
+    font-weight: 300;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 10px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    width: 90%;
+    margin: 0 auto; 
+}
+
+/*---------------------------------------------------------------------------------*/
+/*                          HEADINGS                                            */
+/*---------------------------------------------------------------------------------*/
+
+h1 {
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*                          LINKS                                            */
+/*---------------------------------------------------------------------------------*/
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*                          BUTTONS                                            */
+/*---------------------------------------------------------------------------------*/
+
+.header__buttons { 
+    margin-top: 4rem;
+}
+
+.btn {
+    border-radius: .4rem;
+    text-transform: uppercase;
+}
+
+.btn-lg {
+    font-size: 3rem;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+.btn-green {
+    background: rgba(0, 255, 55, 0.514);
+}
+
+.btn-blue {
+    background-color: rgba(55, 0, 253, 0.37);
+}
+
+/*---------------------------------------------------------------------------------*/
+/*                          NAV                                            */
+/*---------------------------------------------------------------------------------*/
+nav {
+    padding-top: 1rem;
+    text-transform: uppercase;
+}
+
+nav div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo-box {
+    width: 8rem; 
+    margin-right: 4rem;
+}
+
+.logo {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.nav__links {
+    font-size: 2rem;
+    padding-top: 2.5rem;
+    margin-right: 3rem;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*                          HEADER                                            */
+/*---------------------------------------------------------------------------------*/
+
+header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(53, 53, 53, 0.74), rgba(53, 53, 53, 0.74)), url("../images/bgimage.jpg");
+}
+
+.header__text-box {
+    position: absolute;
+    top: 30%;
+}
+
