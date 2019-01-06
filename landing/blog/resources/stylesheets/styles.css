@@ -1,0 +1,132 @@
+/*---------------------------------------------------------------------------------*/
+/*                          BASIC SETUP                                            */
+/*---------------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(117, 7, 7);
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    width: 100%;
+}
+
+.col {
+    margin: 0;
+    padding: 0;
+}
+
+.span-1-of-3 {
+    width: 33.33%;
+}
+
+.span-2-of-3 {
+    width: 66.66%;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*                          text                                            */
+/*---------------------------------------------------------------------------------*/
+h1 {
+    padding-top: 14vh;
+    font-size: 16rem;
+    text-transform: uppercase;
+}
+
+.sub-text {
+    font-family: 'PT Sans Narrow', sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    font-size:2rem;
+}
+
+.name {
+    font-family: 'Mukta', sans-serif;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*                          HEADER                                            */
+/*---------------------------------------------------------------------------------*/
+
+.header {
+    height: 100vh;
+}
+
+.photo {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.bio {
+    text-align: center;
+    background-image: linear-gradient(90deg,#c41313ad, rgba(163, 5, 18, 0.733)), url(../images/camera.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+ 
+.socials {
+    background-image: linear-gradient(90deg,#8b0909, #9c401c);
+    width: 100%;
+    height: 40vh;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*                          icons                                            */
+/*---------------------------------------------------------------------------------*/
+
+.media-icons {
+    padding-top: 4rem;
+}
+
+.icon-small {
+    height: 6rem;
+    width: auto;
+    margin-right: 2rem;
+    transition: all .3s;
+    animation: moveinbottom .7s ease .6s;
+    animation-fill-mode: backwards;
+}
+
+.media-icons img:hover {
+    transform: scale(1.3);
+}
+
+.media-icons a:link,
+.media-icons a:visited {
+    text-decoration: none;
+    border: none;
+}
+
+.icon-small {
+    width: 8rem;
+    text-align: left;
+}
+
+/*                                                           */
+img.menu {
+    width: 10rem;
+    padding: 2rem;
+    float: right;
+}
